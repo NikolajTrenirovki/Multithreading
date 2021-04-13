@@ -1,7 +1,7 @@
 package Lesson_5;
 
 public class Main {
-    static int i = 0;
+    volatile static int i = 0;
 
     public static void main(String[] args) {
         new MyThreadRead().start();
